@@ -8,6 +8,8 @@ app.get("/",(req,res)=>{
     message:"api is healthy"
    })
 })
+
+
 app.listen(PORT,(res)=>{
     connectDB()
     console.log(`server is up and running http://localhost:${PORT}`)
